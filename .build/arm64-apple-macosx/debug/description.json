@@ -1,0 +1,297 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.WallpaperScroll-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/WallpaperScroll.build/sources",
+      "importPath" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/WallpaperManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/WallpaperScrollApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/WallpaperScroll.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "WallpaperScroll",
+      "moduleOutputPath" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/Modules/WallpaperScroll.swiftmodule",
+      "objects" : [
+        "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/WallpaperScroll.build/ContentView.swift.o",
+        "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/WallpaperScroll.build/WallpaperManager.swift.o",
+        "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/WallpaperScroll.build/WallpaperScrollApp.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "WallpaperScroll_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/WallpaperScroll.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/WallpaperScroll.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/WallpaperScroll.build/WallpaperManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/WallpaperScroll.build/WallpaperScrollApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/Modules/WallpaperScroll.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/ContentView.swift",
+        "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/WallpaperManager.swift",
+        "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/WallpaperScrollApp.swift"
+      ],
+      "tempsPath" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/WallpaperScroll.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "WallpaperScroll" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "WallpaperScroll",
+      "-c",
+      "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/ContentView.swift",
+      "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/WallpaperManager.swift",
+      "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/WallpaperScrollApp.swift",
+      "-I",
+      "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "WallpaperScroll_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "WallpaperScroll" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/WallpaperScroll-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/WallpaperScroll-entitlement.plist"
+    },
+    "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/WallpaperScroll.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/WallpaperManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/WallpaperScrollApp.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/WallpaperScroll.build/sources"
+    },
+    "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/WallpaperScroll.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/WallpaperScroll.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/WallpaperScroll.build/WallpaperManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/WallpaperScroll.build/WallpaperScrollApp.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/WallpaperScroll.product/Objects.LinkFileList"
+    },
+    "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
