@@ -13,7 +13,10 @@ let package = Package(
         .executableTarget(
             name: "WallpaperScroll",
             path: ".",
-            sources: ["WallpaperScrollApp.swift", "WallpaperManager.swift", "ContentView.swift"]
+            sources: ["WallpaperScrollApp.swift", "WallpaperManager.swift", "ContentView.swift"],
+            resources: [
+                .process("Info.plist")
+            ]
         )
     ]
 )

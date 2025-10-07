@@ -5,6 +5,10 @@ import SwiftUI
 struct WallpaperScrollApp: App {
     @StateObject private var wallpaperManager = WallpaperManager()
 
+    init() {
+        print("Application starting...")
+    }
+
     var body: some Scene {
         MenuBarExtra {
             ContentView(wallpaperManager: wallpaperManager)

@@ -34,8 +34,6 @@ struct ContentView: View {
             }
         }
         .frame(width: 300, height: 400)
-        .onAppear {
-            wallpaperManager.loadWallpapers()
-        }
+
     }
 }
