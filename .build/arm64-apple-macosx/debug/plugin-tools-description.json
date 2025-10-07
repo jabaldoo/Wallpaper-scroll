@@ -24,15 +24,15 @@
       "inputs" : [
         {
           "kind" : "file",
-          "name" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/ContentView.swift"
+          "name" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/Sources/WallpaperScroll/ContentView.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/WallpaperManager.swift"
+          "name" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/Sources/WallpaperScroll/WallpaperManager.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/WallpaperScrollApp.swift"
+          "name" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/Sources/WallpaperScroll/WallpaperScrollApp.swift"
         },
         {
           "kind" : "file",
@@ -125,9 +125,9 @@
       ],
       "prepareForIndexing" : false,
       "sources" : [
-        "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/ContentView.swift",
-        "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/WallpaperManager.swift",
-        "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/WallpaperScrollApp.swift"
+        "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/Sources/WallpaperScroll/ContentView.swift",
+        "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/Sources/WallpaperScroll/WallpaperManager.swift",
+        "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/Sources/WallpaperScroll/WallpaperScrollApp.swift"
       ],
       "tempsPath" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/WallpaperScroll.build",
       "wholeModuleOptimization" : false
@@ -142,9 +142,9 @@
       "-module-name",
       "WallpaperScroll",
       "-c",
-      "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/ContentView.swift",
-      "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/WallpaperManager.swift",
-      "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/WallpaperScrollApp.swift",
+      "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/Sources/WallpaperScroll/ContentView.swift",
+      "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/Sources/WallpaperScroll/WallpaperManager.swift",
+      "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/Sources/WallpaperScroll/WallpaperScrollApp.swift",
       "-I",
       "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/Modules",
       "-target",
@@ -242,15 +242,15 @@
         },
         {
           "kind" : "file",
-          "name" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/ContentView.swift"
+          "name" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/Sources/WallpaperScroll/ContentView.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/WallpaperManager.swift"
+          "name" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/Sources/WallpaperScroll/WallpaperManager.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/WallpaperScrollApp.swift"
+          "name" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/Sources/WallpaperScroll/WallpaperScrollApp.swift"
         }
       ],
       "outputFilePath" : "/Users/jabaldoo/Developer/Github/Wallpaper-scroll/.build/arm64-apple-macosx/debug/WallpaperScroll.build/sources"

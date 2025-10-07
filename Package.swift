@@ -12,10 +12,14 @@ let package = Package(
     targets: [
         .executableTarget(
             name: "WallpaperScroll",
-            path: ".",
-            sources: ["WallpaperScrollApp.swift", "WallpaperManager.swift", "ContentView.swift"],
-            resources: [
-                .process("Info.plist")
+            path: "Sources/WallpaperScroll",
+            linkerSettings: [
+                .unsafeFlags([
+                    "-Xlinker", "-sectcreate",
+                    "-Xlinker", "__TEXT",
+                    "-Xlinker", "__info_plist",
+                    "-Xlinker", "Sources/WallpaperScroll/Info.plist"
+                ])
             ]
         )
     ]
